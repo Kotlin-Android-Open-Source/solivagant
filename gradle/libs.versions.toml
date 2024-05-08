@@ -1,8 +1,8 @@
 [versions]
 junit = "4.13.2"
-kotlin = "1.9.22"
-coroutines = "1.7.3"
-kotlinx-serialization-json = "1.6.2"
+kotlin = "1.9.24"
+coroutines = "1.8.0"
+kotlinx-serialization-json = "1.6.3"
 kotlinx-collections-immutable = "0.3.7"
 
 # the Java version that the Java and Kotlin compilers will target
@@ -18,44 +18,44 @@ android-target = "33"
 android-compile = "33"
 
 # the Android target to use in sample
-robolectric = "4.11.1"
+robolectric = "4.12.1"
 sample-android-target = "34"
 # the Android compileSdkVersion to use in sample
 sample-android-compile = "34"
 
-jetbrains-compose = "1.5.11"
+jetbrains-compose = "1.6.2"
 jetbrains-compose-compiler = "1.5.7.1"
 
 napier = "2.7.1"
-flowExt = "0.7.5"
-koin = "3.5.3"
-koin-compose = "1.1.2"
-koin-androidx-compose = "3.5.3"
-compose-rules-detekt = "0.3.10"
+flowExt = "0.8.0"
+koin = "3.5.6"
+koin-compose = "1.1.5"
+koin-androidx-compose = "3.5.6"
+compose-rules-detekt = "0.3.20"
 
 androidx-lifecycle = "2.7.0"
 androidx-annotation = "1.7.1"
-androidx-activity = "1.8.2"
+androidx-activity = "1.9.0"
 androidx-appcompat = "1.6.1"
-androidx-core-ktx = "1.12.0"
-androidx-navigation = "2.7.6"
-android-gradle = "8.2.1"
+androidx-core-ktx = "1.13.1"
+androidx-navigation = "2.7.7"
+android-gradle = "8.4.0"
 
-coil = "3.0.0-alpha03"
-ktor = "2.3.7"
+coil = "3.0.0-alpha06"
+ktor = "2.3.11"
 
-kmp-viewmodel = "0.6.2-SNAPSHOT"
-uuid = "0.8.2"
+kmp-viewmodel = "0.7.1"
+uuid = "0.8.4"
 
-spotless = "6.23.3"
-detekt = "1.23.4"
+spotless = "6.25.0"
+detekt = "1.23.6"
 
-kotlinx-kover = "0.7.5"
-dokka = "1.9.10"
-kotlinx-binary-compatibility-validator = "0.13.2"
+kotlinx-kover = "0.7.6"
+dokka = "1.9.20"
+kotlinx-binary-compatibility-validator = "0.14.0"
 poko = "0.15.2"
 
-vanniktech-maven-publish = "0.27.0"
+vanniktech-maven-publish = "0.28.0"
 ktlint = "0.50.0"
 
 [libraries]
